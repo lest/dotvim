@@ -30,6 +30,9 @@ set smartcase                   " ... unless they contain at least one capital l
 " Enable limited line numbering
 set ruler
 
+" Always show status line
+set laststatus=2
+
 " Make file/command completion useful
 set wildmode=list:longest
 set wildmenu
