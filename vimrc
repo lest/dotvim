@@ -53,6 +53,10 @@ set expandtab                   " use spaces, not tabs
 set autoindent
 set smartindent
 
+" When a file has been detected to have been changed outside of Vim and
+" it has not been changed inside of Vim, automatically read it again.
+set autoread
+
 " Allow backspace to delete indents, line breaks and past the start of the
 " current insert. This makes the key work like in every other editor
 set backspace=indent,eol,start
