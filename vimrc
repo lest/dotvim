@@ -127,3 +127,8 @@ noremap <Up> <nop>
 noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
+
+" Only do this part when compiled with support for autocommands.
+if has("autocmd")
+  autocmd BufNewFile,BufRead *.md set filetype=markdown
+endif
