@@ -128,6 +128,12 @@ noremap <Down> <nop>
 noremap <Left> <nop>
 noremap <Right> <nop>
 
+" Easier navigation between split windows
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+
 " Only do this part when compiled with support for autocommands.
 if has("autocmd")
   autocmd BufNewFile,BufRead *.md set filetype=markdown
