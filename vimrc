@@ -87,10 +87,7 @@ nnoremap ` '
 " Map meta-backspace in command mode to backward kill word
 cmap <M-BS> 
 
-" Make <C-l> clear the highlight as well as redraw
-nnoremap <C-L> :nohls<CR><C-L>
-inoremap <C-L> <C-O>:nohls<CR>
-
+nnoremap <Leader><Space> :nohlsearch<CR>
 nnoremap <Leader><Leader> <C-^>
 
 " Allow buffers with changes to be hidden
