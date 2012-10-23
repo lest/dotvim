@@ -136,3 +136,7 @@ if has("autocmd")
   autocmd BufNewFile,BufRead *.md set filetype=markdown
   autocmd FocusLost * :wa
 endif
+
+" RTF Pygmentize
+let g:rtfp_theme = 'trac'
+let g:rtfp_font  = 'Monaco'

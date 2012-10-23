@@ -43,3 +43,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/rtf_pygmentize"]
+	path = bundle/rtf_pygmentize
+	url = https://github.com/rafaelfranca/rtf_pygmentize.git
