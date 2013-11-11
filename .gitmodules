@@ -33,7 +33,7 @@
 	url = https://github.com/vim-ruby/vim-ruby.git
 [submodule "bundle/vim-slim"]
 	path = bundle/vim-slim
-	url = https://github.com/bbommarito/vim-slim
+	url = https://github.com/slim-template/vim-slim
 [submodule "bundle/vim-elixir"]
 	path = bundle/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
