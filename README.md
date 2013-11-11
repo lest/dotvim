@@ -14,3 +14,10 @@ cd ~/.vim
 git pull origin master
 git submodule update --init
 ```
+
+Update plugins:
+
+```
+cd ~/.vim
+for repo in bundle/*; do echo "Updating $repo"; cd $repo; git fetch origin && git reset --hard origin/master; cd -; done
+```
